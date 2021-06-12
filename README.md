@@ -103,13 +103,30 @@
 </ol>
 ```
 
-> 포함관계로 구성된 목록
+> 포함관계(nested)로 구성된 목록 - 코딩할 때 밖에서 안쪽 방향 순서로 코딩
 - HTML
   - HTML4
   - HTML5
  - CSS
    - CSS2
    - CSS3
+```
+<ul>
+  <li>
+    HTML
+    <ul>
+      <li>HTML4</li>
+      <li>HTML5</li>
+    </ul>
+  </li>
+  <li>
+    CSS
+    <ul>
+      <li>CSS2</li>
+      <li>CSS3</li>
+    </ul>
+  </li>
+```
 
 > 설명목록(Description List) - dl
 
