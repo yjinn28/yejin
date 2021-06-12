@@ -55,17 +55,24 @@
 ### HTML 기본 구조
 
 ```
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>My test page</title>
+<!DOCTYPE html> - 1
+<html> - 2
+  <head> - 3
+    <meta charset="utf-8"> - 4
+    <title>My test page</title> - 5
   </head>
-  <body>
+  <body> - 6
     <p>This is my page</p>
   </body>
 </html>
 ```
+
+1. 웹 문서의 버전 : HTML5
+2. HTML 문서의 가장 바깥쪽 요소(가장 밖에서 포함하고 있는 것이므로 바깥쪽 요소라고 말함)
+3. 웹 문서를 설명하는 정보가 담기는 영역 요소
+4. 웹 문서의 정보를 표시하는 요소
+5. 웹 문서의 제목을 표시하는 요소(상단 탭에 보이는 제목)
+6. 웹 문서의 콘텐츠 요소들이 담기는 영역 요소
 
 
 
