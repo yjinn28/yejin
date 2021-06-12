@@ -85,9 +85,25 @@
 ```
 <br> - break
 ```
+### 목록 태그
 
+> 순서 없는 목록 ul(Unordered List)
+> 순서 있는 목록 ol(Ordered List)
+> 목록 항목 li(List Item)
 
+```
+<ul>
+  <li>HTML</li>
+  <li>CSS</li>
+</ul>
+```
 
+```
+<ol>
+  <li>HTML</li>
+  <li>CSS</li>
+</ol>
+```
 
 
 
