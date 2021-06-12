@@ -96,14 +96,22 @@
   <li>HTML</li>
   <li>CSS</li>
 </ul>
-```
 
-```
 <ol>
   <li>HTML</li>
   <li>CSS</li>
 </ol>
 ```
+
+> 설명목록(Description List) - dl
+
+```
+<dl>
+  <dt>HTML</dt> (dt : Description Title)
+  <dd>표준 마크업 언어</dd> (dd: Description Data/dt를 설명하는 역할)
+</dl>
+```
+
 
 
 
