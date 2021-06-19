@@ -187,4 +187,14 @@ https://www.tablesgenerator.com/html_tables#
 
 > 트래픽 과부하를 해결하기 위해서 유튜브 서비스를 사용하기도 함.
 > 
+> attribute
+> 
+> controls : 컨트롤 버튼 표시
+
+> autoplay : 자동 재생(* muted와 같이 사용해야 함)
+
+> muted : 음소거
+
+> loop : 반복 재생
+
 
