@@ -197,4 +197,14 @@ https://www.tablesgenerator.com/html_tables#
 
 > loop : 반복 재생
 
+### Youtube
+
+> 비디오 콘텐츠 제공시 서버의 트래픽 과부하를 해결할 수 있는 방법 중의 하나
+
+> 
+
+
+
+
+
 
