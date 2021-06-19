@@ -158,6 +158,16 @@
 <h2 id="t1">제목</a>
 ```
 
+### Table Element
+
+> 기본 사용 태그 : table, thead, tbody, tr, th, td 
+> 
+> 열 제목 (표 제일 위에 있는 카테고리 이름) : thead(table head), th(table heading)
+> 
+> 표 내용 : tbody(table body), td(table data)
+> 
+> 행 : tr(table row) -> 물리적인 한 줄
+> 
 
 
 
