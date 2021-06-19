@@ -181,5 +181,10 @@ https://www.tablesgenerator.com/html_tables#
 <img src="image.jpg" alt="대체텍스트">
 ```
 
+### Video Element
 
+> 비디오 및 오디오 콘텐츠는 용량이 크기 때문에 서버에 저장해서 콘텐츠를 제공하면 많은 트래픽이 발생할 수 있음.
+
+> 트래픽 과부하를 해결하기 위해서 유튜브 서비스를 사용하기도 함.
+> 
 
