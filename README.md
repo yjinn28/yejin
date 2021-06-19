@@ -171,8 +171,11 @@
 https://www.tablesgenerator.com/html_tables#
 
 ### Image Element
+
 > Tag : img (종료 태그 없음)
+> 
 > Attribute : src(image 위치, 파일명), alt(대체 텍스트)
+> 
 ` : backtick이라고 부름
 ```
 <img src="image.jpg" alt="대체텍스트">
