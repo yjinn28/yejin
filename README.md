@@ -215,10 +215,9 @@ https://www.tablesgenerator.com/html_tables#
 
 > 텍스트는 HTML 문서에 직접 입력되는 콘텐츠
 
+### 웹사이트 디자인 사이트
 
-
-
-
+> https://freebiesbug.com/psd-freebies/minimo-minimal-blog-template/
 
 
 
