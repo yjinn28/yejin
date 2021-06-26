@@ -225,5 +225,19 @@ https://www.tablesgenerator.com/html_tables#
 
 > span
 
+### Block, Inline
+
+> block Element, Inline Element 구분은 영역 화면 표시 방식에 따른 구분 
+> 
+> 모든 Element는 각각의 고유 영역을 가지고 있음
+> 
+> block Element는 줄바꿈 되어 표시 - block Element 영역의 가로 너비가 부모요소에 100% 채워짐
+> 
+> block Element에는 위, 아래 여백을 적용할 수 있음
+
+> inline Element는 같은 줄에 나란히 표시 - inline Element 영역의 가로 너비가 콘텐츠 크기만큼만 채워짐
+
+> inline Element는 위, 아래 여백을 적용할 수 없음
+
 
 
