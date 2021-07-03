@@ -275,6 +275,14 @@ https://www.tablesgenerator.com/html_tables#
 > 
 > class는 주로 css 스타일 적용, javascript 인터랙션 적용하 때 사용 ==> 프론트엔드 개발에서 주로 사용
 
+### CSS 작성 방법
 
+> External class : 파일 분리
+
+> Internal class : 같은 HTML 문서 내에 <head> 태그 영역에 <sytle> 태그를 사용하여 입력
+  
+> Inline CSS : 시작 태그에 sytle attribute를 사용해서 입려 => javascript에서 CSS를 제어할 때 사용
+  
+  
 
 
