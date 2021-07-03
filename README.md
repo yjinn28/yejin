@@ -279,10 +279,24 @@ https://www.tablesgenerator.com/html_tables#
 
 > External class : 파일 분리
 
-> Internal class : 같은 HTML 문서 내에 <head> 태그 영역에 <sytle> 태그를 사용하여 입력
+> Internal class : 같은 HTML 문서 내에 head 태그 영역에 <sytle> 태그를 사용하여 입력
   
 > Inline CSS : 시작 태그에 sytle attribute를 사용해서 입려 => javascript에서 CSS를 제어할 때 사용
   
   
-
+### naming할 때 표기 방식
+  
+> id/class naming, 변수/함수 naming, 파일/폴더 naming의 경우 가독성을 높이기 위해 사용
+  
+> 표기방식을 사용하는 잉 : naming 할 때 두단어 이상으로 경우 단어와 단어 사이를 구분하기 위해 사용
+> 
+> 표기방식 종류
+> 
+> snake case
+> 
+> kebab case
+> 
+> camel case
+> 
+> Pascal case
 
