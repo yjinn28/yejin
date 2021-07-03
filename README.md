@@ -288,15 +288,21 @@ https://www.tablesgenerator.com/html_tables#
   
 > id/class naming, 변수/함수 naming, 파일/폴더 naming의 경우 가독성을 높이기 위해 사용
   
-> 표기방식을 사용하는 잉 : naming 할 때 두단어 이상으로 경우 단어와 단어 사이를 구분하기 위해 사용
+> 표기방식을 사용하는 이유
+> - naming 할 때 두단어 이상으로 경우 단어와 단어 사이를 구분하기 위해 사용
+> - 단어의 시작 부분에 첫글자를 대문자로 변경, 특수 기호를 사용 
 > 
 > 표기방식 종류
 > 
-> snake case
+> snake case : gnb_depth1 => 파일/폴더
 > 
-> kebab case
+> kebab case : gnb_depth1 => id/class
 > 
-> camel case
+> camel case : gnbDepth1 => javascript의 변수/함수
 > 
-> Pascal case
+> Pascal case : GnbDepth1 => javascript의 클래스
 
+  
+  
+  
+  
