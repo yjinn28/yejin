@@ -230,6 +230,8 @@ https://www.tablesgenerator.com/html_tables#
 > block Element, Inline Element 구분은 영역 화면 표시 방식에 따른 구분 
 > 
 > 모든 Element는 각각의 고유 영역을 가지고 있음
+
+> 시각적인 기준에 따라 Block, Inline으로 구분됨
 > 
 > block Element는 줄바꿈 되어 표시 - block Element 영역의 가로 너비가 부모요소에 100% 채워짐
 > 
@@ -239,5 +241,10 @@ https://www.tablesgenerator.com/html_tables#
 
 > inline Element는 위, 아래 여백을 적용할 수 없음
 
+### Parent Element(부모요소), Child Element(자식요소)
+
+> 포함관계에서 포함하는 요소가 부모요소, 포함되는 요소가 자식요소
+> 직계 포함관계에서만 부모요소, 자식요소
+> 직계가 아닌 포함관계에서는 조상요소, 자손요소
 
 
