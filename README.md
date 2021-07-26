@@ -438,7 +438,7 @@ color:rgba(42, 189, 81, 0.5);
 > 
 > float은 박스가 띄워지는 현상이 있기 때문에 인접해 있는 박스의 배치가 깨질수 있음 float 박스를 부모요소로 감싸서 인접해 있는 박스와 float 박스를 감싸고 있는 부모요소와의 관계로 만들어줌 float 박스를 감싸는 부모요소는 높이가 0이 될수 있기 때문에 그것을 clear 할수 있는 비어있는 자식요소를 넣어줌
   
-'''
+```
 HTML
 <div class="float-container>
   <div class="float-box>text</div>
@@ -453,18 +453,18 @@ CSS
 .clearfix{
   clear:both;
 }
-'''
+```
                       
 ### display 속성
 >                       
 > 요소의 기본속성을 변형하지 않고 화면에 표시되는 속성을 변형 block, inline, inline-block
 >
-'''
+```
 div{
   display:inline;
 }
 => div : inline 속성으로 화면에 표시
-'''
+```
 
                        
 > inline-block : inline의 속성(한줄에 나란히 표시)과 block의 속성(박스모델 적용)을 모두 표시
