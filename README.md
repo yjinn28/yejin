@@ -275,6 +275,10 @@ https://www.tablesgenerator.com/html_tables#
 > id는 주로 서버에서 불러오는 데이터를 표시하는 위치에 고유하게 사용 ==> 백엔드 개발에서 주로 사용
 > 
 > class는 주로 css 스타일 적용, javascript 인터랙션 적용하 때 사용 ==> 프론트엔드 개발에서 주로 사용
+>
+> id는 하나의 HTML Element에 대해서 하나의 이름만 존재, HTML 문서내에서 고유해야 함
+> 
+> class는 하나의 HTML Element에 대해서 여러개의 이름을 지정할 수 있고, HTML 문서내에서 여러 곳에서 공통 사용 가능함
 
 ### CSS 작성 방법
 
@@ -287,9 +291,11 @@ https://www.tablesgenerator.com/html_tables#
 ### naming할 때 표기방식
   
 > id/class naming, 변수/함수 naming, 파일/폴더 naming의 경우 가독성을 높이기 위해 사용
-  
+>
 > 표기방식을 사용하는 이유
+>
 > - naming 할 때 두단어 이상으로 경우 단어와 단어 사이를 구분하기 위해 사용
+>
 > - 단어의 시작 부분에 첫글자를 대문자로 변경, 특수 기호를 사용 
 > 
 > 표기방식 종류
@@ -303,39 +309,41 @@ https://www.tablesgenerator.com/html_tables#
 > Pascal case : GnbDepth1 => javascript의 클래스
 
 ### OOCSS(Object Oriented CSS)
+  
 > HTML Element를 대상화시키는 과정에서 Element 하나하나를 모두 객체화 시키는 이론
 >
 > HTML Element 모두 각각 id,class attibute를 사용해서 이름을 지정해줌
   
 ### web color
->
+
 > color mode
 >
-> 가산혼합(빛의혼합) : RGB 컬러모드
+> - 가산혼합(빛의혼합) : RGB 컬러모드
+
 > 표현할 수 있는 색의 개수
 >
 > 1byte = 8bit = 256개(0~255)
 >
 > RGB => 3byte => 24bit 트루컬러 : 16777216가지 색
->
+
 > 색 표현 코드값
 >
 > 16진수(hex code) : #AABA01
 >
 > 10진수 : (255, 255, 255)
->
+
 > CSS 사용법
-'''
+
+```
 color:#2abd51;
 color:rgb(42, 189, 81);
 color:rgba(42, 189, 81, 0.5);
-'''
+```
 
 > 투명도를 의미하는 용어
-
-- transparent : 투명한
-- alpha : 추가 채널
-- opacity : 불투명도
+> - transparent : 투명한
+> - alpha : 추가 채널
+> - opacity : 불투명도
   
 ### Text CSS
 - color
@@ -351,94 +359,89 @@ color:rgba(42, 189, 81, 0.5);
 
   
 ### font CSS
->
-> font-family : "Times New Roman", Times, serif;
-- 순서대로 대체 폰트를 찾음
-- sans-serif, serif, monospace, cursive, fantasy 5개의 기본폰트는 font-family 사용시 종류에 맞게 항상 끝에 기본으로 사용됨
-- 웹사이트에 사용하는 폰트는 웹폰트(서버에 폰트파일을 저장해서 사용)로 사용하는 데, 업로드된 파일을 직접 사용하는 경우, 웹폰트 서비스를 사용하는 경우 2가지가 있음
-- 대표적인 웹폰트 서비스 : 구글 폰트, 눈누
->
-> font-size
-> font-style : italic
-> font-weight : bold / 500
-- 폰트 굵기가 다양한 경우 숫자로 굵기를 표현
+- font-family : "Times New Roman", Times, serif;
+  - 순서대로 대체 폰트를 찾음
+  - sans-serif, serif, monospace, cursive, fantasy 5개의 기본폰트는 font-family 사용시 종류에 맞게 항상 끝에 기본으로 사용됨
+  - 웹사이트에 사용하는 폰트는 웹폰트(서버에 폰트파일을 저장해서 사용)로 사용하는 데, 업로드된 파일을 직접 사용하는 경우, 웹폰트 서비스를 사용하는 경우 2가지가 있음
+  - 대표적인 웹폰트 서비스 : 구글 폰트, 눈누
+- font-size
+- font-style : italic
+- font-weight : bold / 500
+  - 폰트 굵기가 다양한 경우 숫자로 굵기를 표현
 
-### box CSS
->
+### BOX Model
 > 구성요소
-- width/height : 너비/높이
-- padding : 안쪽 여백
-- border : 테두리
-- margin : 바깥 여백
+> - width/height : 너비/높이
+> - padding : 안쪽 여백
+> - border : 테두리
+> - margin : 바깥 여백
 
 ### width/height
->
 > width : 너비/가로길이
-
+> 
 > height : 높이/세로길이
 
 > auto : 기본값
 
-- Block : 너비 : 부모요소를 기준으로 채워짐 / 높이 : 콘텐츠(자식요소)를 기준으로 맞춰짐
-- inline : 너비/높이 : 콘텐트(자식요소)에 맞춰짐
+> - Block : 너비 : 부모요소를 기준으로 채워짐 / 높이 : 콘텐츠(자식요소)를 기준으로 맞춰짐
+> - inline : 너비/높이 : 콘텐트(자식요소)에 맞춰짐
   
 ### padding
-  
-> 왼쪽 여백
+> 안쪽 여백
 
 > padding-top
-
+>
 > padding-right
-
+>
 > padding-bottom
-
+>
 > padding-left
   
 > padding : 10px 20px 30px 40px(top right bottom left)
-
+>
 > padding : 10px 20px 30px(top right/left bottom)
-
+>
 > padding : 10px 20px(top/bottom right/left)
-
+>
 > padding : 10px(top/right/bottom/left)  
 
 ### margin
->
 > padding과 사용방법이 같음
->
+
 > margin collapse
-- 위아래 인접하게 배치된 박스의 사이여백이 둘 중 큰쪽으로만 적용되어 표현되는 현상
-- 위아래 양쪽으로 margin을 적용하는 것보다 한쪽을 기준으로 적용하는 것이 더 좋음
+> - 위아래 인접하게 배치된 박스의 사이여백이 둘 중 큰쪽으로만 적용되어 표현되는 현상
+> - 위아래 양쪽으로 margin을 적용하는 것보다 한쪽을 기준으로 적용하는 것이 더 좋음
 
 ### border
->
 > border:1px solid red;(=> 4방향 모두 적용)
-
+>
 > border-top:1px solid red;
-
+>
 > border-right:1px solid red;
-
+>
 > border-bottom:1px solid red;
-
+>
 > border-left:1px solid red;
   
   
 ### 가로 배치
->
-> ※ inline 요소는 박스 모델이 제대로 적용되지 않기 때문에 레이아웃 구성 요소로 사용하기 어렵다. ※ block 요소를 레이아웃 구성 요소로 사용함 => 세로 배치는 기본 구성
 
-> 가로 배치 기법
+※ inline 요소는 박스 모델이 제대로 적용되지 않기 때문에 레이아웃 구성 요소로 사용하기 어렵다.
+※ block 요소를 레이아웃 구성 요소로 사용함 => 세로 배치는 기본 구성
 
+가로 배치 기법
 - float
 - flex
 - grid
   
 ### float
->
-> left, right 값을 사용해서 가로 배치 left, right는 부모요소를 기준으로 방향성을 표현 일반적으로 왼쪽을 기준으로 순서대로 배치할 때 left만 사용해서 배치
-> 
-> float은 박스가 띄워지는 현상이 있기 때문에 인접해 있는 박스의 배치가 깨질수 있음 float 박스를 부모요소로 감싸서 인접해 있는 박스와 float 박스를 감싸고 있는 부모요소와의 관계로 만들어줌 float 박스를 감싸는 부모요소는 높이가 0이 될수 있기 때문에 그것을 clear 할수 있는 비어있는 자식요소를 넣어줌
-  
+> left, right 값을 사용해서 가로 배치
+> left, right는 부모요소를 기준으로 방향성을 표현
+> 일반적으로 왼쪽을 기준으로 순서대로 배치할 때 left만 사용해서 배치
+
+> float은 박스가 띄워지는 현상이 있기 때문에 인접해 있는 박스의 배치가 깨질수 있음
+> float 박스를 부모요소로 감싸서 인접해 있는 박스와 float 박스를 감싸고 있는 부모요소와의 관계로 만들어줌
+> float 박스를 감싸는 부모요소는 높이가 0이 될수 있기 때문에 그것을 clear 할수 있는 비어있는 자식요소를 넣어줌
 ```
 HTML
 <div class="float-container>
@@ -456,53 +459,50 @@ CSS
 }
 ```
                       
-### display 속성
->                       
-> 요소의 기본속성을 변형하지 않고 화면에 표시되는 속성을 변형 block, inline, inline-block
->
+### display 속성            
+> 요소의 기본속성을 변형하지 않고 화면에 표시되는 속성을 변형
+> block, inline, inline-block
+
 ```
 div{
   display:inline;
 }
 => div : inline 속성으로 화면에 표시
 ```
-
-                       
 > inline-block : inline의 속성(한줄에 나란히 표시)과 block의 속성(박스모델 적용)을 모두 표시
->
-### 폼 요소
 
+### 폼 요소
 > 웹페이지에서 사용자 입력을 받을 사용하는 요소
 ```
-                       <input type="text"> : 일반 텍스트
+<input type="text"> : 일반 텍스트
 <input type="password"> : 비밀번호
 
 <input type="button" value="확인">
 <button type="button">확인</button>
 ```
->
+
 ### 이미지 표현 방법
->
 > 콘텐트로 표현
-- img 태그
+> - img 태그
+> 
 > 디자인 요소로 표현
-- background-image
+> - background-image
                     
 > IR(Image Replacement : 이미지 대체) 기법
-- HTML Element에는 텍스트로 표시
-- 화면(브라우저)에 표시할때는 이미지로 표현
+> - HTML Element에는 텍스트로 표시
+> - 화면(브라우저)에 표시할때는 이미지로 표현
                      
 ### background
 > background-color
-
+>
 > background-image
-
+>
 > background-repeat
 - repeat-x(가로만 반복) / repeat-y(세로만 반복) / no-repeat(반복없음)
+> 
 > background-position
-- left, center, right / top, center, bottom : 키워드
-- px 좌표 표시
-                     
+> - left, center, right / top, center, bottom : 키워드
+> - px 좌표 표시                   
 ```
                      div{
   background-position:left top;(앞:가로방향/뒤:세로방향)
@@ -516,14 +516,15 @@ div{
 background:#fff;
 background:url(image.jpg);
 ```
->
+
 ## 반응형 웹
+
 > OSMU(One Source Multi Use)
 - One Source : HTML
 - Multi Use : CSS, Javascript
->
+
 > 변경점(break point)
-- 기준 해상도를 설정하고 범위 구간으로 설정
+> - 기준 해상도를 설정하고 범위 구간으로 설정
                      
 > @media
 ```
@@ -551,10 +552,10 @@ background:url(image.jpg);
 }
 ```
 
-### Java Script
+## Javascript
 
-> DOM
->                     
+### DOM
+                   
 ### Event
 > 상황 변화에 따라 발생되는 신호
                      
@@ -571,3 +572,8 @@ background:url(image.jpg);
 > - jquery : on()
                      
 함수 : 익명함수 정리
+
+                     
+                     
+                     
+                     
