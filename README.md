@@ -472,6 +472,105 @@ div{
 ### 폼 요소
 
 > 웹페이지에서 사용자 입력을 받을 사용하는 요소
-  
-                       
-                       
+```
+                       <input type="text"> : 일반 텍스트
+<input type="password"> : 비밀번호
+
+<input type="button" value="확인">
+<button type="button">확인</button>
+```
+>
+### 이미지 표현 방법
+>
+> 콘텐트로 표현
+- img 태그
+> 디자인 요소로 표현
+- background-image
+                    
+> IR(Image Replacement : 이미지 대체) 기법
+- HTML Element에는 텍스트로 표시
+- 화면(브라우저)에 표시할때는 이미지로 표현
+                     
+### background
+> background-color
+
+> background-image
+
+> background-repeat
+- repeat-x(가로만 반복) / repeat-y(세로만 반복) / no-repeat(반복없음)
+> background-position
+- left, center, right / top, center, bottom : 키워드
+- px 좌표 표시
+                     
+```
+                     div{
+  background-position:left top;(앞:가로방향/뒤:세로방향)
+  background-position:100px 200px;(앞:가로방향/뒤:세로방향)
+}
+```
+> background-attachment
+- 배경이미지를 고정
+> background 축약표현
+```
+background:#fff;
+background:url(image.jpg);
+```
+
+### 반응형 웹
+> OSMU(One Source Multi Use)
+- One Source : HTML
+- Multi Use : CSS, Javascript
+>
+> 변경점(break point)
+- 기준 해상도를 설정하고 범위 구간으로 설정
+                     
+> @media
+```
+@media 디바이스 and (구간 해상도){
+  디바이스 스타일
+}
+
+@media screen and (max-width:300px){}
+@media screen and (min-width:300px){}
+
+// 독립된 구간으로 설정
+@media screen and (min-width:360px) and (max-width:700px){
+  /* 스마트 폰 CSS */
+}
+@media screen and (min-width:701px) and (max-width:1920px){
+  /* PC CSS */
+}
+
+// 포함된 구간을 설정
+
+/* PC CSS */
+
+@media screen and (max-width:700px){
+  /* 스마트폰 CSS */
+}
+```
+
+### Java Script
+
+> DOM
+>                     
+> EVENT
+> 상황 변화에 따라 발생되는 신호
+
+> Event 발생
+- Event 감지 : 종류, 상황
+- 감지한 Event에 맞는 기능,동작 실행
+>
+> Event 종류
+- Mouse Event : click, mouse over, mouse out
+- Keyboard Event : Key 입력
+>
+> Event 감지 함수
+- javascript : addEventListener()
+- jquery : on()
+>
+> 함수 : 익명함수 정리
+                     
+                     
+                     
+                     
