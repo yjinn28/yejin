@@ -247,6 +247,7 @@ https://www.tablesgenerator.com/html_tables#
 > 직계 포함관계에서만 부모요소, 자식요소
 > 직계가 아닌 포함관계에서는 조상요소, 자손요소
 
+## CSS
 
 ### CSS 기본 개념
 
@@ -278,13 +279,12 @@ https://www.tablesgenerator.com/html_tables#
 ### CSS 작성 방법
 
 > External class : 파일 분리
-
+>
 > Internal class : 같은 HTML 문서 내에 head 태그 영역에 <sytle> 태그를 사용하여 입력
-  
+>  
 > Inline CSS : 시작 태그에 sytle attribute를 사용해서 입려 => javascript에서 CSS를 제어할 때 사용
   
-  
-### naming할 때 표기 방식
+### naming할 때 표기방식
   
 > id/class naming, 변수/함수 naming, 파일/폴더 naming의 경우 가독성을 높이기 위해 사용
   
@@ -383,6 +383,7 @@ color:rgba(42, 189, 81, 0.5);
 - inline : 너비/높이 : 콘텐트(자식요소)에 맞춰짐
   
 ### padding
+  
 > 왼쪽 여백
 
 > padding-top
@@ -515,8 +516,8 @@ div{
 background:#fff;
 background:url(image.jpg);
 ```
-
-### 반응형 웹
+>
+## 반응형 웹
 > OSMU(One Source Multi Use)
 - One Source : HTML
 - Multi Use : CSS, Javascript
